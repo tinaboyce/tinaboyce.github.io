@@ -2,4 +2,5 @@
 layout: home
 title: Home
 ---
-Slowly under construction!
+<h1>Welcome to Tina Boyce's page!</h1>
+Slowly under construction...
