@@ -14,12 +14,8 @@
       </span>
 
       <div class="trigger">
-        {% assign sorted_pages = site.pages | sort:"site-nav-order" %}
-        {% for my_page in site.pages %}
-          {% if my_page.nav-title %}
-          <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.nav-title | escape }}</a>
-          {% endif %}
-        {% endfor %}
+        <a class="page-link" href="{{ "/" | relative_url}}">Home</a>
+        <a class="page-link" href="{{ "/about/" | relative_url}}">About</a>
       </div>
     </nav>
 
